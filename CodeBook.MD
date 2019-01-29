@@ -1,0 +1,97 @@
+## Code book for Getting and Cleaning Data project
+Data 
+Data is saved in file tidy_data.csv: 
+* the first row is the names of the variables
+* the following rows is the values of these variables.
+Variables:
+ [1] "Subject": 30 volunteers , using integers from 1 to 30                                                         
+ [2] "Activity": 6 activities that these volunteers performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+The following columns are average of each variable for each activity and each subject.
+                                                  
+ [3] "TimeDomainBodyAccelerometerMeanX"                              
+ [4] "TimeDomainBodyAccelerometerMeanY"                              
+ [5] "TimeDomainBodyAccelerometerMeanZ"                              
+ [6] "TimeDomainBodyAccelerometerStandardDeviationX"                 
+ [7] "TimeDomainBodyAccelerometerStandardDeviationY"                 
+ [8] "TimeDomainBodyAccelerometerStandardDeviationZ"                 
+ [9] "TimeDomainGravityAccelerometerMeanX"                           
+[10] "TimeDomainGravityAccelerometerMeanY"                           
+[11] "TimeDomainGravityAccelerometerMeanZ"                           
+[12] "TimeDomainGravityAccelerometerStandardDeviationX"              
+[13] "TimeDomainGravityAccelerometerStandardDeviationY"              
+[14] "TimeDomainGravityAccelerometerStandardDeviationZ"              
+[15] "TimeDomainBodyAccelerometerJerkMeanX"                          
+[16] "TimeDomainBodyAccelerometerJerkMeanY"                          
+[17] "TimeDomainBodyAccelerometerJerkMeanZ"                          
+[18] "TimeDomainBodyAccelerometerJerkStandardDeviationX"             
+[19] "TimeDomainBodyAccelerometerJerkStandardDeviationY"             
+[20] "TimeDomainBodyAccelerometerJerkStandardDeviationZ"             
+[21] "TimeDomainBodyGyroscopeMeanX"                                  
+[22] "TimeDomainBodyGyroscopeMeanY"                                  
+[23] "TimeDomainBodyGyroscopeMeanZ"                                  
+[24] "TimeDomainBodyGyroscopeStandardDeviationX"                     
+[25] "TimeDomainBodyGyroscopeStandardDeviationY"                     
+[26] "TimeDomainBodyGyroscopeStandardDeviationZ"                     
+[27] "TimeDomainBodyGyroscopeJerkMeanX"                              
+[28] "TimeDomainBodyGyroscopeJerkMeanY"                              
+[29] "TimeDomainBodyGyroscopeJerkMeanZ"                              
+[30] "TimeDomainBodyGyroscopeJerkStandardDeviationX"                 
+[31] "TimeDomainBodyGyroscopeJerkStandardDeviationY"                 
+[32] "TimeDomainBodyGyroscopeJerkStandardDeviationZ"                 
+[33] "TimeDomainBodyAccelerometerMagnitudeMean"                      
+[34] "TimeDomainBodyAccelerometerMagnitudeStandardDeviation"         
+[35] "TimeDomainGravityAccelerometerMagnitudeMean"                   
+[36] "TimeDomainGravityAccelerometerMagnitudeStandardDeviation"      
+[37] "TimeDomainBodyAccelerometerJerkMagnitudeMean"                  
+[38] "TimeDomainBodyAccelerometerJerkMagnitudeStandardDeviation"     
+[39] "TimeDomainBodyGyroscopeMagnitudeMean"                          
+[40] "TimeDomainBodyGyroscopeMagnitudeStandardDeviation"             
+[41] "TimeDomainBodyGyroscopeJerkMagnitudeMean"                      
+[42] "TimeDomainBodyGyroscopeJerkMagnitudeStandardDeviation"         
+[43] "FrequencyDomainBodyAccelerometerMeanX"                         
+[44] "FrequencyDomainBodyAccelerometerMeanY"                         
+[45] "FrequencyDomainBodyAccelerometerMeanZ"                         
+[46] "FrequencyDomainBodyAccelerometerStandardDeviationX"            
+[47] "FrequencyDomainBodyAccelerometerStandardDeviationY"            
+[48] "FrequencyDomainBodyAccelerometerStandardDeviationZ"            
+[49] "FrequencyDomainBodyAccelerometerMeanFrequencyX"                
+[50] "FrequencyDomainBodyAccelerometerMeanFrequencyY"                
+[51] "FrequencyDomainBodyAccelerometerMeanFrequencyZ"                
+[52] "FrequencyDomainBodyAccelerometerJerkMeanX"                     
+[53] "FrequencyDomainBodyAccelerometerJerkMeanY"                     
+[54] "FrequencyDomainBodyAccelerometerJerkMeanZ"                     
+[55] "FrequencyDomainBodyAccelerometerJerkStandardDeviationX"        
+[56] "FrequencyDomainBodyAccelerometerJerkStandardDeviationY"        
+[57] "FrequencyDomainBodyAccelerometerJerkStandardDeviationZ"        
+[58] "FrequencyDomainBodyAccelerometerJerkMeanFrequencyX"            
+[59] "FrequencyDomainBodyAccelerometerJerkMeanFrequencyY"            
+[60] "FrequencyDomainBodyAccelerometerJerkMeanFrequencyZ"            
+[61] "FrequencyDomainBodyGyroscopeMeanX"                             
+[62] "FrequencyDomainBodyGyroscopeMeanY"                             
+[63] "FrequencyDomainBodyGyroscopeMeanZ"                             
+[64] "FrequencyDomainBodyGyroscopeStandardDeviationX"                
+[65] "FrequencyDomainBodyGyroscopeStandardDeviationY"                
+[66] "FrequencyDomainBodyGyroscopeStandardDeviationZ"                
+[67] "FrequencyDomainBodyGyroscopeMeanFrequencyX"                    
+[68] "FrequencyDomainBodyGyroscopeMeanFrequencyY"                    
+[69] "FrequencyDomainBodyGyroscopeMeanFrequencyZ"                    
+[70] "FrequencyDomainBodyAccelerometerMagnitudeMean"                 
+[71] "FrequencyDomainBodyAccelerometerMagnitudeStandardDeviation"    
+[72] "FrequencyDomainBodyAccelerometerMagnitudeMeanFrequency"        
+[73] "FrequencyDomainBodyAccelerometerJerkMagnitudeMean"             
+[74] "FrequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation"
+[75] "FrequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency"    
+[76] "FrequencyDomainBodyGyroscopeMagnitudeMean"                     
+[77] "FrequencyDomainBodyGyroscopeMagnitudeStandardDeviation"        
+[78] "FrequencyDomainBodyGyroscopeMagnitudeMeanFrequency"            
+[79] "FrequencyDomainBodyGyroscopeJerkMagnitudeMean"                 
+[80] "FrequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation"    
+[81] "FrequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency" 
+* Transformations 
+1. download file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+2. Merge the training and the test sets to create one data set
+3. Extract only the measurements on the mean and standard deviation for each measurement.
+4. Use descriptive activity names to name the activities in the data set
+5. Appropriately label the data set with descriptive variable names.
+6. creates tidy data set with the average of each variable for each activity and each subject, saved in tidy_data.csv
+
